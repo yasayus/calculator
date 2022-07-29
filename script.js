@@ -16,6 +16,7 @@ buttons.map((button) => {
 				break;
 			default:
 				display.innerText += event.target.innerText;
+				return;
 		}
 	});
 });
